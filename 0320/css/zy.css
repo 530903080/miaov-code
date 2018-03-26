@@ -1,0 +1,55 @@
+.box{
+	width: 414px;
+	height: 414px;
+	border:3px dashed #ffffff;
+	background-color: #e56d76;
+}
+
+.in-box{
+	width: 346px;
+	height: 346px;
+	border:2px solid #ffffff;
+	margin: 32px;
+	background-color: #ea8891;
+	
+}
+
+.box1{
+	width: 276px;
+	height: 276px;
+	border:2px dotted #ffffff; 
+	margin: 33px;
+	background-color: #fdad5f;
+}
+
+.box2{
+	width: 214px;
+	height: 214px;
+	border:1px dashed #ffffff;
+	margin: 31px;
+	background-color: #faec4d;
+}
+
+.box3{
+	width: 198px;
+	height: 198px;
+	border:1px dotted #ffffff;
+	margin: 6px;
+	background-color: #bfc649;
+}
+
+.box4{
+	width: 113px;
+	height: 113px;
+	border:2px solid #ffffff;
+	margin: 43px 38px 38px 43px;
+	background-color: #e56d76;
+}
+
+
+
+
+
+
+
+

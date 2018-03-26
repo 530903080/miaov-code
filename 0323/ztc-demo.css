@@ -1,0 +1,118 @@
+/*全局样式修复*/
+
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #6c6c6c;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+
+/*全局通用样式*/
+
+body {
+	font-size: 12px;
+	color: #6c6c6c;
+}
+
+
+/*主容器样式*/
+
+.main-ctn {
+	width: 260px;
+	padding: 4px 14px 27px;
+	margin: 50px auto 0;
+	background-color: #f7f7f7;
+}
+
+
+/*标题盒子样式*/
+
+.title-ctn {
+	height: 20px;
+	line-height: 20px;
+}
+
+.title-ctn .logo {
+	display: inline-block;
+	width: 90px;
+	height: 20px;
+	background: url(./img/title.png) no-repeat;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.title-ctn .desc {}
+
+
+/*内容盒子*/
+
+.content-ctn {
+	margin-top: 15px;
+}
+
+.content-ctn .shop-list {
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+	border-bottom: none;
+}
+
+.content-ctn .shop-list .shop-item {
+	padding: 16px 13px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+
+/*每一个店铺里面的样式*/
+
+.content-ctn .shop-item .shop-title {
+	font-size: 14px;
+	line-height: 14px;
+	color: #444;
+	margin-bottom: 10px;
+}
+
+.content-ctn .shop-list .shop-labels-list {
+	line-height: 12px;
+	margin-bottom: 12px;
+	font-size: 0;
+}
+
+.content-ctn .shop-list .shop-labels-list .shop-label-item {
+	font-size: 12px;
+	display: inline-block;
+	padding: 0 10px 0 7px;
+	border-left: 1px solid #eaeaea;
+}
+
+.content-ctn .shop-list .shop-labels-list .shop-label-item:first-child{
+	padding-left: 0;
+	border-left: none;
+}
+
+
+.content-ctn .shop-list .pic-list {
+	/*text-align: justify;*/
+	text-align-last: justify;
+}
+
+.content-ctn .shop-list .pic-list .pic-item {
+	display: inline-block;
+}
+
+.content-ctn .change-btn {}

@@ -1,0 +1,82 @@
+html,body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+
+/*最外层盒子*/
+
+.box {
+	/*width: calc(100% - 40px);*/
+	/*box-sizing: border-box;*/
+	height: 100%;
+	padding-top: 20px;
+	background-color: #ff80ab;
+}
+
+
+/*内容盒子*/
+
+.in-box {
+	border: 1px solid #e15671;
+	/*width: 100%;*/
+	margin: 0 20px;
+}
+
+
+/*标题*/
+
+.head {
+	height: 116px;
+	background-color: #e15671;
+	background-image: url(../img1/title.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+/*内容列表*/
+
+.list {
+	margin: 0;
+	padding-left: 0;
+}
+
+
+/*列表内容项*/
+
+.list-item {
+	height: 113px;
+	background-color: #ffffff;
+	list-style: none;
+	border-top: 1px solid #e15671;
+	padding-left: 40px;
+}
+
+
+/*列表内按钮容器*/
+
+.btn-ctn {
+	width: 36px;
+}
+
+.email {
+	margin-top: 43px;
+	height: 32px;
+	background: url(../img1/icons.png)
+}
+
+.game {
+	margin-top: 41px;
+	height: 36px;
+	background: url(../img1/icon-game.png)
+}
+
+.other {
+	margin-top: 40px;
+	height: 37px;
+	background: url(../img1/icons.png) left bottom;
+}

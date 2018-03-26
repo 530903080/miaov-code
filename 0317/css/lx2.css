@@ -1,0 +1,41 @@
+.box {
+	width: 800px;
+	height: 600px;
+	border: 1px solid #ff80ab;
+	background-color: #ff80ab;
+}
+
+.head {
+	width: 800px;
+	height: 118px;
+	border: 1px solid #cfcfcf;
+}
+
+
+}
+.content {
+	/*width: 660px;
+	height: 340px;
+	border-right:1px solid #cfcfcf;*/
+}
+.item-apple {
+	width: 690px;
+	height: 40px;
+	background-color: #FFFFFF;
+	/*border-width: 10px;*/
+	border-style: solid;
+	border-color: #ff80ab;
+	font-family:"宋体";
+	line-height: 40px;
+	word-spacing: 36px;
+}
+
+.item-food {
+	width: 660px;
+	height: 40px;
+	background-color: #cfcfcf;
+	/*border-width: 10px;*/
+	
+	border-style: solid;
+	border-color: #ff80ab;
+}

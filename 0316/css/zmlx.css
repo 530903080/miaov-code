@@ -1,0 +1,81 @@
+/*html,body{
+	height:100%;
+}*/
+/*大盒子*/
+
+.box{
+	width: 100%;
+	height: 460px;
+	/*background-color:#E15671;*/
+	border:20px solid #ff80ab;
+	padding-bottom:15px;
+	
+
+	
+}
+
+/*里面的盒子*/
+
+.in-box{
+	width: 100%;
+	height: 475px;
+	border: 1px solid #E15671;
+	border-bottom:none;
+	
+
+}
+
+/*内容*/
+
+.head{
+	width:100%;
+	height:117px;
+	border:1px solid #E15671;
+	background:#E15671 url(../img1/title.png) no-repeat;
+	background-position: center center;
+}
+
+/*图标*/
+
+.email{
+	width:100%;
+	height:117px;
+	border:1px solid #E15671;
+	background:#ffffff url(../img1/icons.png) no-repeat;
+	background-position: 40px 43px;
+	
+}
+
+.game{
+	width:100%;
+	height:117px;
+	border:1px solid #E15671;
+	background:#ffffff url(../img1/icon-game.png) no-repeat;
+	background-position: 40px 41px;
+}
+
+.other{
+	width:100%;
+	height:117px;
+	border:1px solid #E15671;
+	background:#ffffff url(../img1/other.png) no-repeat;
+	background-position: 40px 41px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

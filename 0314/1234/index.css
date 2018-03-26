@@ -1,0 +1,26 @@
+#box{
+	width:548px;
+	height:372px;
+	border:2px solid blue;
+}
+
+#itme{
+	width:548px;
+	height:50px;
+	border:1px solid skyblue;
+	border-top:none;
+}
+
+#itme2{
+	width:548px;
+	height:270px;
+	border-bottom:1px solid skyblue;
+}
+
+#itme3{
+	width:548px;
+	height:50px;
+}
+#itme4{
+	
+}

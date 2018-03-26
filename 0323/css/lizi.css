@@ -1,0 +1,98 @@
+/*全局修复样式*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+a:visited{
+	color:black;
+}
+body {
+	margin: 0;
+	font-size: 12px;
+}
+
+#box {
+	width: 288px;
+	height: 707px;
+	background-color: #f7f7f7;
+}
+
+#box .head {
+	height: 38px;
+	background-color: #f7f7f7;
+}
+
+#box .head .title {
+	width: 90px;
+	height: 20px;
+	background: url(../img/title.png)no-repeat;
+	text-indent: -9999px;
+	/*padding-left: 13px;*/
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#box .content {
+	height: 632px;
+	background-color: #f7f7f7;
+}
+
+.content .list {
+	/*height: 632px;*/
+	background-color: #ffffff;
+	list-style: none;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.content .item {
+	height: 150px;
+	margin-bottom: -1px;
+	border: 1px solid #cfcfcf;
+}
+
+.content .item-title{
+	margin-top: 16px;
+	margin-left: 14px;
+	line-height: 14px;
+	
+	
+}
+
+.content .item-tags{
+	margin-top: 10px;
+	margin-left: 14px;
+}
+.content .item-tags a{
+	border-right: 1px solid #e8e8e8;
+	padding-right: 6px;
+	margin-right: 10px;
+}
+.content .item-pic{
+	margin-top: 10px;
+	margin-left: 14px;
+}
+
+.content .footer-btn {
+	font-size: 12px;
+	text-align: center;
+	padding: 12px 0 10px;
+	background: #e8e8e8 url(../img/btn.png) no-repeat 80px;
+}
+
+.content .footer-btn a {
+	vertical-align: middle;
+	margin-left: 8px;
+}

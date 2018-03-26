@@ -1,0 +1,71 @@
+/*全局修复样式*/
+
+h3,
+ul,
+li,h4{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-size: 12px;
+}
+
+#box {
+	width: 260px;
+	height: 680px;
+	background-color: palegreen;
+
+}
+
+#box .head {
+	height: 38px;
+	background-color: pink;
+	/*background: url(../img/title.png) no-repeat;*/
+}
+
+#box .title {
+	background: url(../img/title.png)no-repeat;
+	text-indent: -9999px;
+}
+
+#box .content {
+	height: 642px;
+	background-color: palegoldenrod;
+}
+
+#box .list {
+	/*width: 247px;*/
+	height: 605px;
+	background-color: #FECC02;
+	padding-left: 13px;
+	list-style: none;
+}
+#box .item{
+	height: 149px;
+	border:1px solid #cfcfcf;
+	padding-right: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
