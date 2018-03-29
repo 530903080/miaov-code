@@ -1,0 +1,84 @@
+/*全局修复样式*/
+body, h3{
+	margin: 0;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+}
+a{
+	text-decoration: none;
+	color: #515151;
+}
+
+body{
+	font: 12px arial,"宋体";
+	color: #8b8b8b;
+}
+/*模块容器*/
+#box{
+	margin: 150px auto;
+	width: 700px;
+	height: 411px;
+}
+/*头部区域*/
+#box .head{
+	height: 30px;
+	margin-bottom: 18px;
+}
+/*标题*/
+.head .title{
+	float: left;
+	width: 92px;
+	height: 30px;
+	background: url(../img/mv.jpg) no-repeat right top;
+	text-indent: -9999px;
+	border-left: 5px solid #ff7800;
+	padding-left: 10px;
+}
+.head .more{
+	float: left;
+	width: 37px;
+	height: 14px;
+	background: url(../img/gdd.jpg) no-repeat;
+	text-indent: -9999px;
+	margin: 13px 0 0 13px;
+}
+/*内容区域*/
+#box .list{
+	height: 363px;
+}
+/*内容列表项*/
+.list .item{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 160px;
+	line-height: 23px;
+}
+.list .no-margin{
+	margin-right: 0;
+}
+.item .item-pic{
+	height: 90px;
+}
+.item .item-name{
+	margin-top: 5px;
+}
+.item .mv-name{
+	color: #0f820c;
+}
+.item .item-num{
+	color: #a3a3a3;
+}
+.item .play-num{
+	float: left;
+	padding-left: 14px;
+	background: url(../img/bfja.jpg) no-repeat 0 6px;
+}
+.item .date{
+	float: right;
