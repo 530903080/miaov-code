@@ -1,0 +1,39 @@
+.item {
+	height: 40px;
+	background-color: pink;
+}
+
+.left {
+	float: left;
+	width: 300px;
+	height: 40px;
+	background-color: palegreen;
+}
+
+.right {
+	float: right;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	background-color: palegreen;
+}
+
+.right time {
+	display: block;
+	height: 40px;
+	background-color: peru;
+}
+
+.right .btns {
+	display: none;
+	height: 40px;
+	background-color: plum;
+}
+
+.item:hover .btns {
+	display: block;
+}
+
+.item:hover time {
+	display: none;
+}
