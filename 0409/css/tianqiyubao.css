@@ -1,0 +1,39 @@
+
+
+body{
+	margin: 0;
+	font: 12px "宋体";
+}
+
+table{
+	border-collapse: collapse;
+}
+thead{
+	background-color: #dbe3fa;
+}
+
+tbody .date{
+	height: 57px;
+	text-align: center;	
+	background-color: #f4f7fc;
+}
+tbody .date-one{
+	color: #cc0000;
+	background-color: #f4f7fc;
+}
+tbody .day{
+	text-align: center;
+	background-color: #f4f7fc;
+}
+td{
+	text-align: center;
+}
+tbody .high{
+	color: #e54600;
+}
+tbody .low{
+	color: #000065;
+}
+.height{
+	height: 5px;
+}

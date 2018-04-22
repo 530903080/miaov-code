@@ -1,0 +1,80 @@
+
+/*全局样式修复*/
+body{
+	margin: 0;
+	font: 14px "宋体";
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	width: 689px;
+	height: 507px;
+	background-color: #ffffff;
+	margin: 150px auto;
+	padding-left: 5px;
+	
+}
+
+.box .head{
+	height: 38px;
+	width: 689px;
+	/*background-color: green;*/
+	float: left;
+	
+
+}
+.head .title{
+	padding-top: 10px;
+	
+
+	float: left;
+
+	
+}
+
+.head .right-btn{
+	width: 75px;
+	height: 23px;
+	background-color: yellow;
+	background: url(../img/right-btn.png) no-repeat;
+	text-indent: -9999px;
+	float: right;
+	margin-top: 2px;
+		
+}
+.box .list{
+	width: 680px;
+	height: 445px;
+	padding-top: 40px;
+	
+}
+.list .item{
+	width: 333px;
+	height: 140px;
+	border:1px solid #cfcfcf;
+	float: left;
+	margin-right: 5px;
+	background-color: #f3f3f3;
+	margin-bottom: 10px;
+	
+}
+.item .item-pic{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.item-pic .gz-btn{
+	text-align: center;
+	margin-top: 8px;
+}
+.item .type{
+	float: left;
+	margin-left: 9px;
+	margin-top: 10px;
+}

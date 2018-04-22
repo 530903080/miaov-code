@@ -1,0 +1,106 @@
+
+h3,
+
+body {
+	margin: 0;
+}
+
+ul
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body {
+	font: 12px arial,"宋体";
+	/*background-color: #F38DB9;*/
+	color:#A3A3A3
+}
+
+a {
+	text-decoration: none;
+	color: #515151;
+}
+
+img {
+	vertical-align: top;
+}
+/*.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}*/
+/*模块容器*/
+.box {
+	width: 700px;
+	height: 411px;
+	/*background-color: #F3AC00;*/
+	margin: 150px auto;
+}
+/*头部区域*/
+.box .head {
+	margin-bottom: 18px;
+	height: 30px;
+}
+/*标题*/
+.head .title {
+	width: 107px;
+	height: 30px;
+	background: url(../img/mv4.png) no-repeat right top;
+	text-indent: -9999px;
+	padding-left: 10px;
+	
+	float: left;
+}
+
+.head .more {
+	background: url(../img/gd5.png) no-repeat;
+	text-indent: -9999px;
+	width: 37px;
+	height: 14px;
+	float: left;
+	margin-top: 13px;
+	margin-left: 13px;
+}
+/*内容区域*/
+.box .list {
+	height: 363px;
+	padding-left: 10px;
+}
+/*内容项*/
+.list .item {
+	width: 160px;
+	line-height: 23px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.list .no-margin{
+	margin-right: 0;
+
+.item .item-pic {
+	height: 90px;
+}
+
+.item .item-name {
+	margin-top: 5px;
+}
+
+.item .item-name .mv-name {
+	color: #0F820C
+}
+
+.item .item-num {
+	color: #A3A3A3;
+}
+
+.item .play-num {
+	background: url(../img/bfj7.png) no-repeat 0 6px;
+	float: left;
+	padding-left: 14px;
+}
+
+.item .date {
+	float: right;
+}

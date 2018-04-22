@@ -1,0 +1,121 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 14px;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #515151;
+}
+
+/*模块容器*/
+.box {
+	width: 367px;
+	height: 484px;
+	background-color: #ffffff;
+	margin: 150px auto;
+	padding-left: 19px;
+	padding-top: 24px;
+	/*margin-bottom: 14px;*/
+}
+/*头部区域*/
+.box .head {
+	/*width: 348px;*/
+	height: 31px;
+	/*background-color: #F3AC00;*/
+}
+/*标题*/
+.head .title {
+	width: 130px;
+	height: 31px;
+	background: url(../img/zxtj.png) no-repeat;
+	text-indent: -9999px;
+	float: left;
+	padding-left: 9px;
+	
+}
+
+.head .play-btn {
+	width: 33px;
+	height: 31px;
+	background: url(../img/bfj.png) no-repeat;
+	text-indent: -9999px;
+	float: left;
+	padding-left: 9px;
+}
+
+.head .add-btn {
+	width: 33px;
+	height: 31px;
+	background: url(../img/tjj.png) no-repeat;
+	text-indent: -9999px;
+	float: left;
+}
+
+.head .type {
+	height: 14px;
+	/*width: 106px;*/
+	/*border-right: 1px solid #8b8b8b;*/
+	float: right;
+	line-height: 14px;
+	margin-top: 10px;
+	/*margin-right: 14px;*/
+}
+
+.head .type a {
+	border-right: 1px solid #8b8b8b;
+	padding-right: 9px;
+	/*font-weight: bold;*/
+	font-size: 12px
+}
+
+.head .type span a {
+	color: #0f820c;
+	
+}
+/*内容区域*/
+.list .item {
+	width: 367px;
+	line-height: 36px;
+	
+}
+.item .item-name{
+	padding-top: 11px;
+}
+.item .ms-name {
+	color: #0f820c;
+
+}
+
+.item .date {
+	color: #8b8b8b;
+	float: right;
+	margin-right: 14px;
+}
+
+
+
+
+.item .list-btn{
+	float: right;
+	text-indent: -9999px;
+	background: url(../img/bfjlist.png) no-repeat center;
+	
+}

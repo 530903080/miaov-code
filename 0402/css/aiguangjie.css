@@ -1,0 +1,86 @@
+
+
+/*全局修复样式*/
+body{
+	margin: 0;
+	font:12px "宋体";
+	background-color: skyblue;
+}
+a{
+	text-decoration: none;
+	color: #3c3c3c;
+}
+h3{
+	margin: 0;
+	padding: 0;
+	
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*模块容器*/
+.box{
+	width: 1026px;
+	height: 234px;
+	background-color: #ffffff;
+	margin: 150px auto;
+
+
+}
+/*头部区域*/
+.box .head{
+	height: 43px;
+
+	
+	
+}
+/*标题*/
+.head .title {
+	width: 62px;
+	height: 20px;
+	background: url(../img/agjdd.png) no-repeat;
+	text-indent: -9999px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 12px;
+	margin-right: 5px;
+}
+
+
+.head .btn {
+	background: url(../img/ewmagj.png) no-repeat;
+	width: 16px;
+	height: 14px;
+	text-indent: -9999px;
+	float: left;
+	margin-top: 20px;
+}
+/*内容列表项*/
+.list .item{
+	width: 148px;
+	height: 180px;
+	background-color: #F3AC00;
+	margin-left: 8px;
+	float: left;
+	margin-right: 12px;
+	position: relative;
+}
+/*图片*/
+.item .item-pic{
+	height: 154px;
+	background-color: #FAEC4D;
+	
+}
+/*文字描述*/
+.item .item-title{
+	position: absolute;
+	width: 148px;
+	height: 26px;
+	line-height: 25px;
+	text-align: center;
+	background: rgba(225,225,225,0.5);
+}
+
+

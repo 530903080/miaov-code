@@ -1,0 +1,116 @@
+body,
+h3 {
+	margin: 0;
+	font: 12px "宋体";
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.box {
+	/*width: 898px;*/
+	height: 343px;
+	background-color: skyblue;
+	margin: 150px auto;
+	padding-top: 10px;
+}
+
+.box .content {
+	/*width: 879px;*/
+	height: 250px;
+	background-color: #F3AC00;
+	border: 1px solid #cfcfcf;
+	position: relative;
+	margin-left: 10px;
+}
+
+.content .bor {
+	width: 91px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-top: -1px;
+}
+
+.head .title {
+	font: 14px "宋体";
+	/*border-right: 1px solid #cfcfcf;*/
+	margin-top: 13px;
+}
+
+.head .title a {
+	border-right: 1px solid #cfcfcf;
+	/*margin-right: 14px;*/
+	padding-right: 14px;
+	padding-left: 15px;
+}
+
+.list {
+	width: 575px;
+	float: left;
+}
+
+.list .item {
+	height: 200px;
+	position: relative;
+	/*margin-left: 14px;*/
+	margin-top: 19px;
+	float: left;
+}
+
+.item .item-pic {
+	height: 110px;
+	margin-left: 14px;
+}
+
+.item .item-title {
+	position: absolute;
+	top: 82px;
+	width: 170px;
+	height: 28px;
+	background: rgba(225, 225, 225, 0.8);
+	text-align: center;
+	line-height: 28px;
+	margin-left: 14px;
+}
+
+
+/*.item .item-pic{
+	height: 110px;
+	background-color: #F00283;
+	
+}
+.item .item-title{
+	height: 28px;
+	width: 170px;
+	background-color: #A266D9;
+	position: absolute;
+	background: rgba(225,225,225,0.8);
+	top: 82px;
+}*/
+
+.item .item-tag {
+	line-height: 30px;
+	margin-left: 14px;
+	margin-top: 12px;
+	word-spacing: 6px;
+}
+
+.item .item-tags {
+	line-height: 30px;
+	margin-left: 14px;
+	word-spacing: 6px;
+}
+
+.item .right-pic {
+	float: right;
+	padding-top: 18px;
+}

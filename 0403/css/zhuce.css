@@ -1,0 +1,173 @@
+body{
+	margin: 0;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+input{
+	padding: 0;
+	margin: 0;
+	/*border:none;*/
+}
+.box{
+	width: 982px;
+	height: 718px;
+	background-color: skyblue;
+	margin: 150px auto;
+	
+}
+/*.box .content{
+	width: 958px;
+	height: 585px;
+	background-color: #F3AC00;
+	border:1px solid #cfcfcf;
+}*/
+
+.box .head{
+	height: 81px;
+	/*background-color: #F00283;*/
+	line-height: 81px;
+	
+}
+
+
+.head .one-logo{
+	/*height: 25px;*/
+	padding-left: 10px;
+}
+.head .two-logo{
+
+	
+}
+.head .three-logo{
+
+	/*margin-left: 22px;*/
+
+}
+.title{
+	font-size: 20px;
+	/*line-height: 81px;*/
+	/*border-left: 1px solid #cfcfcf;*/
+
+}
+.head .right-tag{
+	float: right;
+	
+}
+
+
+
+.content{
+	width: 958px;
+	height: 585px;
+	/*background-color: #F3AC00;*/
+	border:1px solid #cfcfcf;
+	margin-left: 10px;
+	margin-top: 23px;
+}
+.content .item-title{
+	height: 38px;
+	background-color: #A266D9;
+	font: 14px/38px "宋体";
+	border-top-left-radius: 3px;
+	padding-left: 20px;
+	background: url(../img/lansek.png) repeat-x;
+}
+.content .reg{
+	/*width: 333px;*/
+	height: 33px;
+	margin-left: 143px;
+	margin-top: 49px;
+	/*border:1px solid red;*/
+	
+	/*border-radius: 3px;*/
+	
+}
+
+.content button{
+	width: 168px;
+	height: 33px;
+	font-size: 14px;
+	background-color: #2b73bc;
+	float: left;
+	/*border:none;*/
+	border-radius: 3px;
+	
+	
+	
+}
+.content .mail{
+	/*width: 420px;*/
+	height: 55px;
+	margin-top: 32px;
+	margin-left: 85px;
+}
+.content .mail input{
+	width: 212px;
+	height: 27px;
+	border:1px solid #cfcfcf;
+	border-radius: 3px;
+	margin-bottom: 7px;
+	/*margin-left: 66px;*/
+	
+}
+.mail select{
+	width: 100px;
+	height: 27px;
+	border:1px solid #cfcfcf;
+	font-weight: bold;
+}
+
+.mail .tag{
+	color: #9f999f;
+	font-size: 12px;
+	margin-left: 57px;
+	line-height: 22px;
+	margin-bottom: 17px;
+}
+.content .cip{
+	height: 54px;
+	
+	/*margin-left: 25px;*/
+	
+}
+.content .cip span{
+	margin-left: 25px;
+}
+.content .cip input{
+	height: 25px;
+	line-height: 22px;
+	/*margin-left: 25px;*/
+	
+}
+
+.content .aff{
+	height: 54px;
+	margin-top: 17px;
+}
+
+.content .aff input{
+	height: 25px;
+	line-height: 22px;
+}
+.content .text{
+	height: 80px;
+	margin-left: 13px;
+	margin-top: 27px;
+	float: left;
+}
+.content .text input{
+	height: 25px;
+}
+.content .text .tag{
+	margin-left: 45px;
+}
+.text .item-pic{
+	float: left;
+}

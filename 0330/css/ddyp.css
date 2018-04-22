@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	font: 12px "宋体";
+	background-color: skyblue;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+ul,li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.box {
+	width: 967px;
+	height: 612px;
+	background-color: #ffffff;
+	margin: 150px auto;
+}
+
+.box .content {
+	/*width: 939px;*/
+	height: 591px;
+	background-color: #ffffff;
+	/*border-top: 1px solid #05a790;*/
+	float: left;
+	margin-top: 7px;
+	margin-left: 9px;
+}
+
+.list .item {
+	width: 234px;
+	height: 294px;
+	border: 1px solid #cfcfcf;
+	background-color: #ffffff;
+	border-top: 1px solid #05a790;
+	float: left;
+	margin-right: -1px;
+	margin-bottom: -1px;
+}
+.list .item-box{
+	border-top:1px solid #dfdedd;
+	border-bottom: 1px solid #DFDEDD;
+}
+.item .item-pic {
+	margin-left: 17px;
+	margin-top: 11px;
+}
+
+.item .item-tag {
+	/*width: 234px;*/
+	height: 83px;
+	
+	/*margin-left: 21px;*/
+	background-color: #f3f2f2;
+}
+.item .item-tag a{
+	margin-left: 17px;
+}
+.item .item-much {
+	/*margin-left: 11px;*/
+
+}
+
+.item .item-buy {
+	float: right;
+	margin-top: 23px;
+}

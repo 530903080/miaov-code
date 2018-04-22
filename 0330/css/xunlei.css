@@ -1,0 +1,107 @@
+/*reset*/
+
+body {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+
+/*main*/
+
+.box {
+	margin: 150px auto;
+	width: 972px;
+	height: 421px;
+	font: 14px/23px "宋体";
+}
+
+.frame-line {
+	float: left;
+	width: 162px;
+	height: 3px;
+	background-color: #abe27d;
+}
+
+.item {
+	float: left;
+	width: 161px;
+	height: 417px;
+	border: 1px solid #dddddd;
+	border-top: none;
+	margin-right: -1px;
+}
+
+.head {
+	width: 161px;
+	height: 41px;
+	text-align: center;
+	font: bold 15px/41px "宋体";
+	color: #d22c2c;
+}
+
+.content {
+	width: 140px;
+	height: 376px;
+	padding: 0px 11px 0px 10px;
+}
+
+.series {
+	width: 140px;
+	height: 265px;
+	border-bottom: 1px dashed #dbdbdb;
+	margin-bottom: 11px;
+}
+
+.TVplay {
+	width: 140px;
+	height: 130px;
+	/*background: pink;*/
+}
+
+.TVplay img {
+	border: 1px solid #dedede;
+	padding: 1px 1px 1px 1px;
+}
+
+.TVplay a {
+	font: 13x/23px "宋体";
+	color: #3c3c3c;
+}
+
+.TVplay .ico-code {
+	float: right;
+	width: 8px;
+	height: 23px;
+	background: url(../img/xdxdd.png) no-repeat;
+	margin-top: 5px;
+}
+
+.other {
+	width: 140px;
+	height: 99px;
+}
+
+.more .Name {
+	display: block;
+	font: 14px/23px "宋体";
+	color: #3c3c3c;
+}
+
+.more .Intro {
+	display: block;
+	font: 10px/19px "宋体";
+	color: #aaaaaa;
+}
